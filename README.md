@@ -40,6 +40,19 @@ Para rodar o projeto via linha de comando, certifique-se de ter o [JDK](https://
 1. Abra o terminal e navegue até o diretório raiz dos pacotes Java (`src/main/java`):
    ```bash
    cd caminho/para/o/projeto/src/main/java
+
+2. Compile a classe principal (o Java compilará automaticamente as dependências internas):
+    ```bash
+    javac br/com/jvbenetti/main/BenchmarkMain.java
+
+3. Execute o programa informando o caminho completo do pacote:
+    ```bash
+    java br.com.jvbenetti.main.BenchmarkMain
+
+## 📝 Relatório e Resultados
+Os resultados empíricos extraídos pelo console, juntamente com a fundamentação teórica (Notação Big-O) e a análise crítica sobre estouro de pilha (StackOverflowError) no Quick Sort, encontram-se documentados no arquivo relatorio_benchmark.md (ou versão PDF).
+
 ---
+Projeto desenvolvido para a disciplina de *Estrutura de Dados*.
 
 🪡 Feito por https://github.com/jvbenetti
