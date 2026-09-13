@@ -1,7 +1,7 @@
-package main.java.br.com.jvbenetti.main;
+package br.com.jvbenetti.main;
 
-import main.java.br.com.jvbenetti.internal.AlgoritmosOrdenacao;
-import main.java.br.com.jvbenetti.internal.GeradorDados;
+import br.com.jvbenetti.internal.AlgoritmosOrdenacao;
+import br.com.jvbenetti.internal.GeradorDados;
 
 public class BenchmarkMain {
 

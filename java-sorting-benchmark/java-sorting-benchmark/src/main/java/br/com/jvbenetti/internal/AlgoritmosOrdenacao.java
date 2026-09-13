@@ -1,4 +1,4 @@
-package main.java.br.com.jvbenetti.internal;
+package br.com.jvbenetti.internal;
 
 public class AlgoritmosOrdenacao {
 
